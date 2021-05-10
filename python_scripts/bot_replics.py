@@ -1,4 +1,4 @@
-help_registered = '''
+help_registered = """
 Реализованн класс Shell с функциями:
     ● /start или /help. Для получения этой справки.
     ● /authorize <пароль>. Для аутентификации в систему.
@@ -17,14 +17,13 @@ help_registered = '''
     ● python <имя файла>. Выполняет код на python. Не дружит с input() в режиме бота.
     ● cat <имя файла>. Выводит содержимое файла.
     ● exit. Завершает работу программы в режиме bash.
-'''
-help_not_registered = '''
+"""
+help_not_registered = """
 Этот бот реазилует Shell. Для того чтобы им воспользоваться, необходима авторизация.
 Введите /authorize <пароль>.
-'''
+"""
 welcome_message = "Добро пожаловать в Shell!"
-already_authorized = 'Вы уже авторизированы.'
+already_authorized = "Вы уже авторизированы."
 wrong_password = "Пароль неверен."
 not_authorized = "Вы не авторизированы."
 unauthrization_complete = "Вы успешно вышли из системы."
-
